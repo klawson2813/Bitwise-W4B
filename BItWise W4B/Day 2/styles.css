@@ -1,3 +1,12 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+
+}
+
 .container div {
     width: 100px;
     height: 100px;
@@ -7,6 +16,7 @@
 
 #box1 { 
     background-color: red;
+    position: relative;
 }
 
 #box2{
