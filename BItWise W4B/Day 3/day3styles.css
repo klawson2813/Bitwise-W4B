@@ -2,66 +2,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    margin: -2px
 }
 
 #light { 
     background-color: #07bffc;
-    position: relative;
+    opacity: 0;
 }
+
 #dark {
     background-color: blue
 }
-#light {
-    background-color: #07bffc; 
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
-#light {
-    background-color: #07bffc;
-}
-#dark {
-    background-color: blue;
-}
+
