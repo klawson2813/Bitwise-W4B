@@ -5,12 +5,12 @@
     margin: -2px
 }
 
-#light { 
+.light { 
     background-color: #07bffc;
     opacity: 0;
 }
 
-#dark {
+.dark {
     background-color: blue
 }
 
