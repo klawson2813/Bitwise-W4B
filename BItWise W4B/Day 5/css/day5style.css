@@ -1,3 +1,40 @@
 .header {
-    border: 8px solid;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.nav {
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.section {
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.aside {
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.article {
+    border: 5px solid black;
+    text-align: center;
+}
+
+.footer {
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    
 }
