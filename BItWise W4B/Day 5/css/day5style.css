@@ -11,6 +11,13 @@
     box-shadow: 1px 2px 5px 5px bisque;
 }
 
+body {
+    background-color: rgba(48, 151, 182, 0.432);
+    background-image: url(../img/pexels-engin-akyurt-1435752.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header {
     height: 350px;
 }
