@@ -1,8 +1,14 @@
+body {
+    background-image: url("pexels-photo-2254030.jpeg");
+}
+
+
 .header {
     border: 5px solid black;
     padding: 2px;
     margin: 2px;
     text-align: center;
+    height: 350px;
 }
 
 .nav {
@@ -10,6 +16,7 @@
     padding: 2px;
     margin: 2px;
     text-align: center;
+    height: 250px;
 }
 
 .section {
@@ -17,6 +24,9 @@
     padding: 2px;
     margin: 2px;
     text-align: center;
+    float: left;
+    height: 400px;
+    width: 2690px;
 }
 
 .aside {
@@ -24,17 +34,28 @@
     padding: 2px;
     margin: 2px;
     text-align: center;
+    float: right;
+    height: 820px;
+    width: 650px;
 }
 
 .article {
     border: 5px solid black;
     text-align: center;
+    float: left;
+    clear: left;
+    height: 400px;
+    width: 2690px;
+    padding: 2px;
+    margin: 2px;
+
 }
 
 .footer {
     border: 5px solid black;
+    height: 200px;
     padding: 2px;
     margin: 2px;
     text-align: center;
-    
+    clear: both;
 }
