@@ -1,25 +1,26 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
 .header,
 .nav,
 .section,
 .aside,
 .article,
 .footer {
-    border: 5px solid black;
-    padding: 2px;
-    margin: 2px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
     box-shadow: 1px 2px 5px 5px bisque;
 }
 
-body {
-    background-color: rgba(48, 151, 182, 0.432);
-    background-image: url(../img/pexels-engin-akyurt-1435752.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .header {
-    height: 350px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 151, 182, 0.432);
 }
 
 h1 {
@@ -27,29 +28,52 @@ h1 {
 }
 
 .nav {
-    height: 250px;   
+    height: 100%;
+    width: 100%;
+    background-color: rgb(16, 190, 0);
+}
+.logo {
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+li, a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .section {
-    float: left;
-    height: 400px;
-    width: 2690px;
+    height: 250px;
+    width: 70%;
+    background-color: rgb(180, 28, 194);
 }
 
 .aside {
     float: right;
-    height: 820px;
-    width: 650px;
+    clear: left;
+    height: 500px;
+    width: 29%;
+    background-color: yellow;
+}
+
+.ocean {
+    height: 300px;
+    width: 400px;
 }
 
 .article {
-    float: left;
-    clear: left;
-    height: 400px;
-    width: 2690px;
+    height: 250px;
+    width: 70%;
+    background-color: pink;
 }
 
 .footer {
-    height: 200px;
+    height: 100%;
+    width: 100%;
     clear: both;
+    background-color: rgb(128, 128, 128);
 }
